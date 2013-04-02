@@ -8,7 +8,7 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.support.v4.app.DialogFragment;
 
-public class NetworkDialogFragment extends DialogFragment {
+public class NetworkErrorDialogFragment extends DialogFragment {
 	@Override
 	public Dialog onCreateDialog(Bundle savedInstanceState) {
 		return new AlertDialog.Builder(getActivity()).setTitle("네트워크 오류").setMessage("인터넷에 접근할수 없습니다.").setCancelable(true)
